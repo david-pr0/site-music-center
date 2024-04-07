@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background-color: #185e6949;
+}
+
+header {
+    width: 100%;
+    background-color: #2aaac0;
+}
+
+.container {
+    width: 1260px;
+    padding: 16px 0;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container h1 {
+    font-size: 42px;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about div {
+    width: 600px;
+}
+
+.about div p {
+    margin-bottom: 16px;
+}
+
+.about img {
+    height: 500px;
+}
+
+#play {
+    background-color: #185e6949;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music {
+    background-color: #185e6949;
+    padding: 50px;
+    border-left: 1px solid black;
+}
+
+.music * {
+    margin-bottom: 8px;
+}
+
+#contat h2,
+#about h2,
+#about p {
+    color: #000000;
+}
+
+.contat {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 16px 0;
+}
+
+.contat * {
+    margin: 16px 0;
+    height: 40px;
+}
+
+.contat input,
+.contat textarea {
+    color: #000000;
+}
+
+.contat input:focus,
+.contat textarea:focus {
+    padding: 5px;
+    outline-color: #2aaac0;
+    color: #000000;
+}
+
+.contat textarea {
+    height: 140px;
+    resize: none;
+}
+
+.contat button {
+    border: none;
+    background-color: #2aaac0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contat button:hover {
+    background-color: #2ebad3;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.network {
+    display: flex;
+}
+
+.network img {
+    height: 50px;
+    margin-right: 16px;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+    background-color: #2aaac0;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
